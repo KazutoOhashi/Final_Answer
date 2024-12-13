@@ -87,6 +87,7 @@ try:
             # 取得したデータを辞書に追加
             elem_dict['店舗名'].append(name)
             elem_dict['電話番号'].append(phone)
+            elem_dict['メールアドレス'].append(None)
             elem_dict['都道府県'].append(prefecture)
             elem_dict['市区町村'].append(city)
             elem_dict['番地'].append(street)
